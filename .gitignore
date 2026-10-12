@@ -1,0 +1,26 @@
+# macOS and Xcode user settings
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Generated builds, archives, and test results
+build/
+DerivedData/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+.build/
+
+# Python helper caches
+__pycache__/
+*.py[cod]
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
